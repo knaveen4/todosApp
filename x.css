@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.bg-container{
+    height: 100vh;
+    background-color: rgb(136, 136, 142);
+}
+.bg-container .content{
+    height: 100vh;
+    background-color: rgb(19, 19, 12);
+    border-radius: 14px;
+    border:0;
+    padding: 20px;
+}
+.content .main-heading{
+    text-align: center;
+    margin-top: 15px;
+    text-decoration:line-through red;
+    color: aliceblue;
+    font-weight: 500;
+    font-style: oblique;
+}
+.content .sub-heading{
+    color: aliceblue;
+    margin-top: 32px;
+}
+.content .sub-heading .task{
+    font-weight: 600;
+    background-color: rgb(63, 70, 66);
+    border-radius: 20px;
+    padding: 5px;
+}
+.content .input-div{
+    margin: 23px 0px;
+}
+.content .input-div .user-input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+}
+.content .add-button{
+    padding: 8px 25px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 21px;
+    background-color: rgb(121, 112, 120);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.content .save{
+    margin: 10px 10px;
+    padding: 8px 25px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 21px;
+    background-color: rgb(69, 97, 199);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.content .add-button:hover{
+    background-color: rgb(182, 182, 209);
+}
+.content .my-tasks{
+    color: aliceblue;
+    margin: 20px 0px;
+    font-size: 29px;
+}
+.content .unorder-list{
+    margin:30px;
+    color: aliceblue;
+    list-style-type: none;
+}
+.list{
+    display: flex;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    background-color: rgb(74, 87, 87);
+    border-radius: 10px;
+}
+.label{
+    font-size: 20px;
+    margin-top: 5px;
+    font-style:oblique;
+    width: 90%;
+}
+.checkbox{
+    width: 20px;
+    height: 40px;
+}
+.labeldiv{
+    margin: 0px 16px;
+    display: flex;
+    width: 100%;
+}
+.checked{
+    text-decoration: line-through red;
+}
+.deldiv{
+    width: 10%;
+}
+.icon{
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 10px;
+}
